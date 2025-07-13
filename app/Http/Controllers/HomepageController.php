@@ -12,4 +12,18 @@ class HomepageController extends Controller
     $vegetables = Vegetable::orderBy('name')->get();
     return view('homepage', compact('vegetables'));
 }
+
+public function search(Request $request)
+{
+    $query = Vegetable::query();
+
+    if ($request->has('search') && !empty($request->search)) {
+        $query->where('name', 'LIKE', '%' . $request->search . '%');
+    }
+
+    $vegetables = $query->get();
+
+    return view('homepage', compact('vegetables'));
+}
+
 }

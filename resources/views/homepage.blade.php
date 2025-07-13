@@ -7,6 +7,17 @@
 
 <div class="container">
    <h2 class="mb-4">Welcome to GreenBasket 🧺🥦🍎</h2>
+<form action="{{ route('search') }}" method="GET" class="mb-4">
+    <div class="d-flex justify-content-center">
+        <div class="input-group w-75 shadow-sm">
+            <input type="text" name="search" class="form-control" placeholder="🔍 Search fresh vegetables..." value="{{ request('search') }}" style="height: 48px;">
+            <button class="btn btn-success" type="submit" style="height: 48px; width:90px;">
+                <i class="bi bi-search"></i> Search
+            </button>
+        </div>
+    </div>
+</form>
+
 
 
 <div class="mb-4 p-3 bg-light rounded shadow-sm text-center">
