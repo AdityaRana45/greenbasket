@@ -1,0 +1,149 @@
+/* Body & Navbar */
+body {
+    background: linear-gradient(to right, #e8f5e9, #f1f8e9);
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    background-color: #2e7d32 !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+    color: #d0ffd0 !important;
+}
+
+/* Heading */
+.container h2 {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(46, 125, 50, 0.15);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+/* Card Image */
+.card img {
+    height: 160px; /* Bigger on desktop */
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+@media (max-width: 768px) {
+    .card img {
+        height: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card img {
+        height: 110px;
+    }
+}
+
+/* Card Content */
+.card-body {
+    padding: 10px 15px;
+}
+
+.card-title {
+    font-size: 17px;
+    color: #1b5e20;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.card-text {
+    font-size: 13px;
+    color: #444;
+    line-height: 1.4;
+    margin-bottom: 6px;
+    max-height: 2.8em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Optional for 2-line wrap:
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+*/
+
+/* Form Elements Inside Card */
+form .form-control {
+    height: 30px;
+    font-size: 13px;
+    padding: 3px 6px;
+    display: inline-block;
+    width: 70px;
+}
+
+form button {
+    font-size: 13px;
+    padding: 5px 12px;
+}
+
+/* Stock Badge */
+.badge {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+/* Alert Styling */
+.alert-success,
+.alert-danger {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* Mobile-specific tweaks */
+@media (max-width: 576px) {
+    .card-body {
+        padding: 8px 10px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 11px;
+        max-height: 2.4em;
+    }
+
+    form .form-control {
+        height: 26px;
+        font-size: 12px;
+    }
+
+    form button {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+
+    .badge {
+        font-size: 11px;
+    }
+}
