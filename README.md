@@ -19,7 +19,7 @@ GreenBasket is a Laravel-based online vegetable store where customers can browse
 
 ### 🏠 Homepage
 
-![Homepage Screenshot](public/uploads/homemobile.png)
+![Homepage Screenshot](public/uploads/home.png)
 
 ### 🛒 Cart Page
 
