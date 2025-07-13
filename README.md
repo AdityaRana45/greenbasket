@@ -17,23 +17,35 @@ GreenBasket is a Laravel-based online vegetable store where customers can browse
 
 ## 🖼️ Screenshots
 
-> 📷 Add your UI screenshots below:
-
 ### 🏠 Homepage
 
-![Homepage Screenshot](public/uploads/screenshot-homepage.png)
+![Homepage Screenshot](public/uploads/homemobile.png)
 
 ### 🛒 Cart Page
 
-![Cart Screenshot](public/uploads/screenshot-cart.png)
+![Cart Screenshot](public/uploads/cart.png)
 
 ### 🧾 Checkout Page
 
-![Checkout Screenshot](public/uploads/screenshot-checkout.png)
+![Checkout Screenshot](public/uploads/checkout.png)
+
+### 🧾 About Page
+
+![Checkout Screenshot](public/uploads/about.png)
+
+### 📋 Admin Panel
+
+![Admin Screenshot](public/uploads/admin.png)
+
+### 📋 Admin Panel add veg
+
+![Admin Screenshot](public/uploads/addveg.png)
+
+
 
 ### 📋 Admin Order Panel
 
-![Admin Screenshot](public/uploads/screenshot-admin.png)
+![Admin Screenshot](public/uploads/order.png)
 
 ---
 
