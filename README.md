@@ -51,7 +51,7 @@ GreenBasket is a Laravel-based online vegetable store where customers can browse
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Laravel 10  
+- **Framework**: Laravel 12  
 - **Language**: PHP 8  
 - **Database**: MySQL  
 - **Frontend**: Blade Templates, Bootstrap 5  
